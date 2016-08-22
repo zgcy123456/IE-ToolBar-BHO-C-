@@ -15,11 +15,14 @@ win7 64 旗舰版，visual studio Ultimate 2013, ie8
 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe" /unregister /codebase "$(TargetPath)"
 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe" /codebase "$(TargetPath)"
 
-3 查看 IEToolbarEngine 项目中 IEToolbarEngine.cs文件代码，找到如下代码，取消注释
+3 查看 IEToolbarEngine 项目中 IEToolbarEngine.cs文件代码，找到如下代码，取消注释（代码中代码中注释代码中注释多，放开一处即可 ）
 
 #if DEBUG
       Debugger.Launch();
 #endif
+
+或
+System.Diagnostics.Debugger.Launch();
 
 4 清理编译，重新生成调试方法
 5 打开IEToolbarEngine，打开ie，会提示选择调试器，选择 IEToolbarEngine，即可单步调试。
