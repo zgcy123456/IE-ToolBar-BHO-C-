@@ -11,8 +11,11 @@ win7 64 旗舰版，visual studio Ultimate 2013, ie8
 2 在后期生成事件命令行中填写如下命令：
 
 "C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\gacutil.exe" /u "$(TargetName)"
+
 "C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\gacutil.exe" /f /i "$(TargetPath)"
+
 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe" /unregister /codebase "$(TargetPath)"
+
 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe" /codebase "$(TargetPath)"
 
 3 查看 IEToolbarEngine 项目中 IEToolbarEngine.cs文件代码，找到如下代码，取消注释（代码中代码中注释代码中注释多，放开一处即可 ）
