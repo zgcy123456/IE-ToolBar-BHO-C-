@@ -8,6 +8,7 @@ win7 64 旗舰版，visual studio Ultimate 2013, ie8
 调试方法如下：
 
 1 打开IEToolbarEngine 项目属性框，选择生成事件选项卡
+
 2 在后期生成事件命令行中填写如下命令：
 
 "C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\gacutil.exe" /u "$(TargetName)"
@@ -28,4 +29,5 @@ win7 64 旗舰版，visual studio Ultimate 2013, ie8
 System.Diagnostics.Debugger.Launch();
 
 4 清理编译，重新生成调试方法
+
 5 打开IEToolbarEngine，打开ie，会提示选择调试器，选择 IEToolbarEngine，即可单步调试。
