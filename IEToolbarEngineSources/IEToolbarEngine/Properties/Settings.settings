@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="IEToolbarEngine.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IEToolbar_WebReferenceCheckLogin_loginCheckService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.derenhou.com:8080/tony/ws/loginCheckService</Value>
+    </Setting>
+    <Setting Name="IEToolbar_WebReferenceCorporationService_proxyCorporationService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.derenhou.com:8080/tony/ws/proxyCorporationService</Value>
+    </Setting>
+    <Setting Name="IEToolbar_WebReferenceAutoInsurance_autoInsuranceDocumentService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.derenhou.com:8080/tony/ws/autoInsuranceDocumentService</Value>
+    </Setting>
+    <Setting Name="IEToolbar_WebReferenceUser_userWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.derenhou.com:8080/tony/ws/userWebService</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

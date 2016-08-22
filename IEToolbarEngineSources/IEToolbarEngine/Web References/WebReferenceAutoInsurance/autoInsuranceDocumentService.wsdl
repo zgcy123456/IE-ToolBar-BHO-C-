@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://impl.cxf.qianye.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://services.cxf.qianye.com/" name="autoInsuranceDocumentService" targetNamespace="http://impl.cxf.qianye.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://services.cxf.qianye.com/" location="http://www.derenhou.com:8080/tony/ws/autoInsuranceDocumentService?wsdl=AutoInsuranceDocumentService.wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="autoInsuranceDocumentServiceSoapBinding" type="ns1:AutoInsuranceDocumentService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="autoInsuranceDocumentService">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="autoInsuranceDocumentService">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="autoInsuranceDocumentServiceResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="autoInsuranceDocumentService">
+    <wsdl:port name="AutoInsuranceDocumentServiceImplPort" binding="tns:autoInsuranceDocumentServiceSoapBinding">
+      <soap:address location="http://www.derenhou.com:8080/tony/ws/autoInsuranceDocumentService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

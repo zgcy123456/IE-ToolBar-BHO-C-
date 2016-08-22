@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://services.cxf.qianye.com/" name="ProxyCorporationService" targetNamespace="http://services.cxf.qianye.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://services.cxf.qianye.com/" elementFormDefault="unqualified" targetNamespace="http://services.cxf.qianye.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="getProxyCorporation" type="tns:getProxyCorporation" />
+      <xs:element name="getProxyCorporationResponse" type="tns:getProxyCorporationResponse" />
+      <xs:complexType name="getProxyCorporation">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getProxyCorporationResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getProxyCorporationResponse">
+    <wsdl:part name="parameters" element="ns1:getProxyCorporationResponse" />
+  </wsdl:message>
+  <wsdl:message name="getProxyCorporation">
+    <wsdl:part name="parameters" element="ns1:getProxyCorporation" />
+  </wsdl:message>
+  <wsdl:portType name="ProxyCorporationService">
+    <wsdl:operation name="getProxyCorporation">
+      <wsdl:input name="getProxyCorporation" message="ns1:getProxyCorporation" />
+      <wsdl:output name="getProxyCorporationResponse" message="ns1:getProxyCorporationResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

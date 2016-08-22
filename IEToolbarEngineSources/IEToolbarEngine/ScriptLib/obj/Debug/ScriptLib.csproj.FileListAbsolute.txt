@@ -1,0 +1,14 @@
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\bin\Debug\ScriptLib.dll
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\bin\Debug\ScriptLib.pdb
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\Debug\ScriptLib.csprojResolveAssemblyReference.cache
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\Debug\Interop.SHDocVw.dll
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\Debug\ScriptLib.csproj.ResolveComReference.cache
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\Debug\ScriptLib.dll
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\Debug\ScriptLib.pdb
+D:\IEToolbarEngineSources1\IEToolbarEngine\ScriptLib\bin\Debug\ScriptLib.dll
+D:\IEToolbarEngineSources1\IEToolbarEngine\ScriptLib\bin\Debug\ScriptLib.pdb
+D:\IEToolbarEngineSources1\IEToolbarEngine\ScriptLib\obj\Debug\Interop.SHDocVw.dll
+D:\IEToolbarEngineSources1\IEToolbarEngine\ScriptLib\obj\Debug\ScriptLib.csproj.ResolveComReference.cache
+D:\IEToolbarEngineSources1\IEToolbarEngine\ScriptLib\obj\Debug\ScriptLib.dll
+D:\IEToolbarEngineSources1\IEToolbarEngine\ScriptLib\obj\Debug\ScriptLib.pdb
+D:\IEToolbarEngineSources1\IEToolbarEngine\ScriptLib\obj\Debug\ScriptLib.csprojResolveAssemblyReference.cache

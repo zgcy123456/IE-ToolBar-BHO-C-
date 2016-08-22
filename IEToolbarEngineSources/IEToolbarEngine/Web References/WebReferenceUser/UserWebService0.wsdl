@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://services.cxf.qianye.com/" name="UserWebService" targetNamespace="http://services.cxf.qianye.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://services.cxf.qianye.com/" elementFormDefault="unqualified" targetNamespace="http://services.cxf.qianye.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="addUser" type="tns:addUser" />
+      <xs:element name="addUserResponse" type="tns:addUserResponse" />
+      <xs:element name="getUsers" type="tns:getUsers" />
+      <xs:element name="getUsersByDeptId" type="tns:getUsersByDeptId" />
+      <xs:element name="getUsersByDeptIdResponse" type="tns:getUsersByDeptIdResponse" />
+      <xs:element name="getUsersBySimpleName" type="tns:getUsersBySimpleName" />
+      <xs:element name="getUsersBySimpleNameResponse" type="tns:getUsersBySimpleNameResponse" />
+      <xs:element name="getUsersResponse" type="tns:getUsersResponse" />
+      <xs:complexType name="getUsersBySimpleName">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="simpleName" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getUsersBySimpleNameResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getUsers">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="getUsersResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="addUser">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="userName" type="xs:string" />
+          <xs:element minOccurs="0" name="phone" type="xs:string" />
+          <xs:element minOccurs="0" name="simpleName" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="addUserResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getUsersByDeptId">
+        <xs:sequence>
+          <xs:element name="deptId" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getUsersByDeptIdResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getUsersByDeptIdResponse">
+    <wsdl:part name="parameters" element="ns1:getUsersByDeptIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="addUserResponse">
+    <wsdl:part name="parameters" element="ns1:addUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUsersByDeptId">
+    <wsdl:part name="parameters" element="ns1:getUsersByDeptId" />
+  </wsdl:message>
+  <wsdl:message name="getUsersResponse">
+    <wsdl:part name="parameters" element="ns1:getUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUsersBySimpleName">
+    <wsdl:part name="parameters" element="ns1:getUsersBySimpleName" />
+  </wsdl:message>
+  <wsdl:message name="getUsers">
+    <wsdl:part name="parameters" element="ns1:getUsers" />
+  </wsdl:message>
+  <wsdl:message name="getUsersBySimpleNameResponse">
+    <wsdl:part name="parameters" element="ns1:getUsersBySimpleNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="addUser">
+    <wsdl:part name="parameters" element="ns1:addUser" />
+  </wsdl:message>
+  <wsdl:portType name="UserWebService">
+    <wsdl:operation name="getUsersBySimpleName">
+      <wsdl:input name="getUsersBySimpleName" message="ns1:getUsersBySimpleName" />
+      <wsdl:output name="getUsersBySimpleNameResponse" message="ns1:getUsersBySimpleNameResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getUsers">
+      <wsdl:input name="getUsers" message="ns1:getUsers" />
+      <wsdl:output name="getUsersResponse" message="ns1:getUsersResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addUser">
+      <wsdl:input name="addUser" message="ns1:addUser" />
+      <wsdl:output name="addUserResponse" message="ns1:addUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getUsersByDeptId">
+      <wsdl:input name="getUsersByDeptId" message="ns1:getUsersByDeptId" />
+      <wsdl:output name="getUsersByDeptIdResponse" message="ns1:getUsersByDeptIdResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

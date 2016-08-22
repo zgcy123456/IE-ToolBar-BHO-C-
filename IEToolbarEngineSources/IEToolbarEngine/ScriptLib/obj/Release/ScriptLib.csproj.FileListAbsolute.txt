@@ -1,0 +1,7 @@
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\bin\Release\ScriptLib.dll
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\bin\Release\ScriptLib.pdb
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\Release\ScriptLib.csprojResolveAssemblyReference.cache
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\Release\ScriptLib.dll
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\Release\ScriptLib.pdb
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\Release\Interop.SHDocVw.dll
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\Release\ScriptLib.csproj.ResolveComReference.cache

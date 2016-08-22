@@ -1,0 +1,189 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\Record\{507D0438-76EC-3463-B07B-D0344436EA92}\1.0.0.0]
+"Class"="BandObjectLib.BandObjectStyle"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\Record\{CEB9579E-0DDC-3738-B603-376D67D333E3}\1.0.0.0]
+"Class"="BandObjectLib.BrowserNavConstants"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\Record\{2D1BD80C-A502-388D-8E94-05BDA4EA6492}\1.0.0.0]
+"Class"="BandObjectLib.DBIM"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\Record\{D224C30B-1DCE-3734-ACBB-1B007240203C}\1.0.0.0]
+"Class"="BandObjectLib.DBIMF"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\Record\{8A18D2EB-29A9-3DAD-BD38-EE2882B69A12}\1.0.0.0]
+"Class"="BandObjectLib.DESKBANDINFO"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\Record\{4C2CE053-0309-35B0-AE04-986E0B45EC89}\1.0.0.0]
+"Class"="BandObjectLib.POINT"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\Record\{29F72A5E-87DB-3738-B3E5-DF7748BC32F5}\1.0.0.0]
+"Class"="BandObjectLib.MSG"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\IEToolbarEngine.FormLogin]
+@="IEToolbarEngine.FormLogin"
+
+[HKEY_CLASSES_ROOT\IEToolbarEngine.FormLogin\CLSID]
+@="{D054F504-2B83-3274-A7A5-365552FA24B8}"
+
+[HKEY_CLASSES_ROOT\CLSID\{D054F504-2B83-3274-A7A5-365552FA24B8}]
+@="IEToolbarEngine.FormLogin"
+
+[HKEY_CLASSES_ROOT\CLSID\{D054F504-2B83-3274-A7A5-365552FA24B8}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="IEToolbarEngine.FormLogin"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{D054F504-2B83-3274-A7A5-365552FA24B8}\InprocServer32\1.0.0.0]
+"Class"="IEToolbarEngine.FormLogin"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{D054F504-2B83-3274-A7A5-365552FA24B8}\ProgId]
+@="IEToolbarEngine.FormLogin"
+
+[HKEY_CLASSES_ROOT\CLSID\{D054F504-2B83-3274-A7A5-365552FA24B8}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\IEToolbarEngine.IEToolbarEngine]
+@="IEToolbarEngine.IEToolbarEngine"
+
+[HKEY_CLASSES_ROOT\IEToolbarEngine.IEToolbarEngine\CLSID]
+@="{691CA8EC-7205-4AA9-BDD6-15493D16F835}"
+
+[HKEY_CLASSES_ROOT\CLSID\{691CA8EC-7205-4AA9-BDD6-15493D16F835}]
+@="IEToolbarEngine.IEToolbarEngine"
+
+[HKEY_CLASSES_ROOT\CLSID\{691CA8EC-7205-4AA9-BDD6-15493D16F835}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="IEToolbarEngine.IEToolbarEngine"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{691CA8EC-7205-4AA9-BDD6-15493D16F835}\InprocServer32\1.0.0.0]
+"Class"="IEToolbarEngine.IEToolbarEngine"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{691CA8EC-7205-4AA9-BDD6-15493D16F835}\ProgId]
+@="IEToolbarEngine.IEToolbarEngine"
+
+[HKEY_CLASSES_ROOT\CLSID\{691CA8EC-7205-4AA9-BDD6-15493D16F835}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\IEToolbarEngine.IEToolbarInstaller]
+@="IEToolbarEngine.IEToolbarInstaller"
+
+[HKEY_CLASSES_ROOT\IEToolbarEngine.IEToolbarInstaller\CLSID]
+@="{EB752B5F-E265-35D0-BBD6-CEE51348C2F8}"
+
+[HKEY_CLASSES_ROOT\CLSID\{EB752B5F-E265-35D0-BBD6-CEE51348C2F8}]
+@="IEToolbarEngine.IEToolbarInstaller"
+
+[HKEY_CLASSES_ROOT\CLSID\{EB752B5F-E265-35D0-BBD6-CEE51348C2F8}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="IEToolbarEngine.IEToolbarInstaller"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{EB752B5F-E265-35D0-BBD6-CEE51348C2F8}\InprocServer32\1.0.0.0]
+"Class"="IEToolbarEngine.IEToolbarInstaller"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{EB752B5F-E265-35D0-BBD6-CEE51348C2F8}\ProgId]
+@="IEToolbarEngine.IEToolbarInstaller"
+
+[HKEY_CLASSES_ROOT\CLSID\{EB752B5F-E265-35D0-BBD6-CEE51348C2F8}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\Record\{8DF5455B-F647-3138-8844-9447226F383E}\1.0.0.0]
+"Class"="IEToolbarEngine.ToolbarItemType"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\IEToolbarEngine.Md5Helper]
+@="IEToolbarEngine.Md5Helper"
+
+[HKEY_CLASSES_ROOT\IEToolbarEngine.Md5Helper\CLSID]
+@="{2BAC0A7D-75C8-3F46-97E6-F977256EC8D4}"
+
+[HKEY_CLASSES_ROOT\CLSID\{2BAC0A7D-75C8-3F46-97E6-F977256EC8D4}]
+@="IEToolbarEngine.Md5Helper"
+
+[HKEY_CLASSES_ROOT\CLSID\{2BAC0A7D-75C8-3F46-97E6-F977256EC8D4}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="IEToolbarEngine.Md5Helper"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{2BAC0A7D-75C8-3F46-97E6-F977256EC8D4}\InprocServer32\1.0.0.0]
+"Class"="IEToolbarEngine.Md5Helper"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{2BAC0A7D-75C8-3F46-97E6-F977256EC8D4}\ProgId]
+@="IEToolbarEngine.Md5Helper"
+
+[HKEY_CLASSES_ROOT\CLSID\{2BAC0A7D-75C8-3F46-97E6-F977256EC8D4}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\IEToolbarEngine.ShowToolbarBHO]
+@="IEToolbarEngine.ShowToolbarBHO"
+
+[HKEY_CLASSES_ROOT\IEToolbarEngine.ShowToolbarBHO\CLSID]
+@="{86A3CDAA-9B25-480E-B73F-C2D359B87966}"
+
+[HKEY_CLASSES_ROOT\CLSID\{86A3CDAA-9B25-480E-B73F-C2D359B87966}]
+@="IEToolbarEngine.ShowToolbarBHO"
+
+[HKEY_CLASSES_ROOT\CLSID\{86A3CDAA-9B25-480E-B73F-C2D359B87966}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="IEToolbarEngine.ShowToolbarBHO"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{86A3CDAA-9B25-480E-B73F-C2D359B87966}\InprocServer32\1.0.0.0]
+"Class"="IEToolbarEngine.ShowToolbarBHO"
+"Assembly"="IEToolbar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v4.0.30319"
+"CodeBase"="file:///D:/IEToolbarEngineSources/IEToolbarEngine/bin/Debug/IEToolbar.dll"
+
+[HKEY_CLASSES_ROOT\CLSID\{86A3CDAA-9B25-480E-B73F-C2D359B87966}\ProgId]
+@="IEToolbarEngine.ShowToolbarBHO"
+
+[HKEY_CLASSES_ROOT\CLSID\{86A3CDAA-9B25-480E-B73F-C2D359B87966}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

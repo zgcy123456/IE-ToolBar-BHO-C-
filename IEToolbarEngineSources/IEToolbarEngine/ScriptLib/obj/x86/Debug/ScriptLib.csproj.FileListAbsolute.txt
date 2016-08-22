@@ -1,0 +1,6 @@
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\bin\x86\Debug\ScriptLib.dll
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\bin\x86\Debug\ScriptLib.pdb
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\x86\Debug\Interop.SHDocVw.dll
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\x86\Debug\ScriptLib.csproj.ResolveComReference.cache
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\x86\Debug\ScriptLib.dll
+D:\IEToolbarEngineSources\IEToolbarEngine\ScriptLib\obj\x86\Debug\ScriptLib.pdb

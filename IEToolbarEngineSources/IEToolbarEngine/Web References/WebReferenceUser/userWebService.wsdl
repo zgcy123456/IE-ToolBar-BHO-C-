@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://impl.cxf.qianye.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://services.cxf.qianye.com/" name="userWebService" targetNamespace="http://impl.cxf.qianye.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://services.cxf.qianye.com/" location="http://192.168.0.150:8090/tony/ws/userWebService?wsdl=UserWebService.wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="userWebServiceSoapBinding" type="ns1:UserWebService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getUsersBySimpleName">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getUsersBySimpleName">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getUsersBySimpleNameResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addUser">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="addUser">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="addUserResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUsers">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getUsers">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getUsersResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUsersByDeptId">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="getUsersByDeptId">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="getUsersByDeptIdResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="userWebService">
+    <wsdl:port name="UserWebServiceImplPort" binding="tns:userWebServiceSoapBinding">
+      <soap:address location="http://192.168.0.150:8090/tony/ws/userWebService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

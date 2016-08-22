@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://services.cxf.qianye.com/" name="AutoInsuranceDocumentService" targetNamespace="http://services.cxf.qianye.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://services.cxf.qianye.com/" elementFormDefault="unqualified" targetNamespace="http://services.cxf.qianye.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="autoInsuranceDocumentService" type="tns:autoInsuranceDocumentService" />
+      <xs:element name="autoInsuranceDocumentServiceResponse" type="tns:autoInsuranceDocumentServiceResponse" />
+      <xs:complexType name="autoInsuranceDocumentService">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="verifyCode" type="xs:string" />
+          <xs:element minOccurs="0" name="companyName" type="xs:string" />
+          <xs:element minOccurs="0" name="jsonData" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="autoInsuranceDocumentServiceResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="autoInsuranceDocumentServiceResponse">
+    <wsdl:part name="parameters" element="ns1:autoInsuranceDocumentServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="autoInsuranceDocumentService">
+    <wsdl:part name="parameters" element="ns1:autoInsuranceDocumentService" />
+  </wsdl:message>
+  <wsdl:portType name="AutoInsuranceDocumentService">
+    <wsdl:operation name="autoInsuranceDocumentService">
+      <wsdl:input name="autoInsuranceDocumentService" message="ns1:autoInsuranceDocumentService" />
+      <wsdl:output name="autoInsuranceDocumentServiceResponse" message="ns1:autoInsuranceDocumentServiceResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
