@@ -19,7 +19,7 @@ win7 64 旗舰版，visual studio Ultimate 2013, ie8
 
 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe" /codebase "$(TargetPath)"
 
-3 查看 IEToolbarEngine 项目中 IEToolbarEngine.cs文件代码，找到如下代码，取消注释（代码中代码中注释代码中注释多，放开一处即可 ）
+3 查看 IEToolbarEngine 项目中 IEToolbarEngine.cs文件代码，找到如下代码，取消注释（代码中注释代码不止一处，放开任意一处即可 ）
 
 \#if DEBUG<br />    Debugger.Launch();<br />
 \#endif
